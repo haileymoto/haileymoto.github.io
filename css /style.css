@@ -1,0 +1,508 @@
+/*********** ICONS ************/
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;  /* Preferred icon size */
+    display: inline-flex;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+/*********** HOME ************/
+
+
+.jumbotron{
+    top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: -30px;
+    margin-right: -20px;
+    z-index: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+}
+
+.main_text{
+    position: absolute;
+    top: 18%;
+    margin-left: -27%;
+}
+
+.main_text_shop{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+
+.shop_button{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.button{
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+
+
+
+}
+
+
+
+/*********** NAVIGATION ************/
+
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    
+}
+
+
+.navbar{
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-left: 775px;
+    position: relative;
+}
+
+
+.navbar a {
+    float: left;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2B2F50;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.navbar a:hover{
+    color: #E86E5F;
+
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 3px 3px 5px 0 #6A6A6A;
+    top: 0;
+    left: 0;
+}
+
+.logo_container{
+    position: relative;
+    z-index: 3;
+    margin-bottom: -50px;
+    margin-top: -10px;
+    width: 20%;
+}
+
+.logo{
+    width: 20%;
+}
+
+.icons{
+    display: inline-flex;
+    z-index: 4;
+    float:right;
+    margin-right: 70px;
+    align-content: center; 
+    top: -30px;
+}
+
+.icons a{
+    padding-right: 25px;
+    color: black;
+    margin-top: -20px;
+
+}
+
+/*********** ABOUT ************/
+
+.pillow_fight{
+    width: 50%;
+    position: relative;
+    float: left;
+    margin-right: -50px;
+    margin-bottom: 50px;
+}
+
+.about_us{
+    width: 50%;
+    height: 40%;
+    position: relative;
+    float: right;
+    background-color: #FCF8E7;
+    margin-right: -30px;
+    margin-left: 0px;
+    padding-top: 120px;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 120px;
+}
+
+
+p{
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    line-height: 50px;
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+a{
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.about{
+    max-height: 400px;
+    position: relative;
+}
+
+/*********** INSTAGRAM ************/
+
+.instagram{
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+h2{
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: bottom;
+    margin-bottom: 60px;
+}
+
+.fixit{
+    color: white;
+}
+
+.insta_photo{
+    margin-top: 50px;
+}
+
+.couple{
+    width: 20%;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 45px;
+
+}
+
+.jump{
+    width: 20%;
+    position: relative;
+    margin-right: 45px;
+}
+
+.tired{
+    width: 20%;
+    position: relative;
+    margin-right: 45px;
+
+}
+
+.blue{
+    width: 20%;
+    position: relative;
+
+
+}
+
+.nextleft{
+    position: relative;
+    transform: rotate(90deg);
+    height: 75px;
+    width: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+    top: -100px;
+
+
+}
+
+.nextright{
+    position: relative;
+    transform: rotate(-90deg);
+    height: 75px;
+    width: auto;
+    margin-left: -5px;
+    margin-right: -40px;
+    top: -100px;
+
+}
+
+.gallery{
+    position: relative;
+    align-content: center;
+    margin-top: 70px;
+    left: 42%;
+    margin-bottom: 70px;
+}
+
+
+/*********** PRODUCTS ************/
+
+.background{
+    width: 100%;
+    height: 500px;
+    background-color: #E8F5FC;
+    z-index: 4;
+    align-content: center;
+   
+}
+
+.product-page{
+    align-content: center;
+    text-align: center;
+}
+
+.main_text{
+    left: 42%;
+}
+
+.couch{
+    margin-top: 30px;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    width: 22%;
+}
+
+
+.couch_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+#couch_heading{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    margin-bottom: 0px;
+}
+
+.round{
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 22%;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.round_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+#round_heading{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    margin-bottom: 0px;
+}
+
+h4{
+    background-color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.bed{
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 22%;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.bed_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+#bed_heading{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+}
+
+.pouf{
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 22%;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    overflow: hidden;
+
+}
+
+.pouf_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+#pouf_heading{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+/*********** PRODUCT DETAILS PAGE************/
+
+
+.container_1{
+    top: 150px;
+    position: relative;
+    width: 50%;
+    padding-right: 0px;
+    float: left;
+    top: 75px;
+
+}
+
+.product-pictures{
+    position: relative;
+    width: 22%;
+    left: 3%;
+    height: 700px;
+    display: inline-block;
+}
+
+.pcouch{
+    max-width: 100%;
+    position: relative;
+
+}
+
+.pground{
+    max-width: 100%;
+    position: relative;
+}
+
+.pplant{
+    max-width: 100%;
+    position: relative;
+}
+
+.main-product-pic{
+    width: 71.5%;
+    left: 1%;
+    height: 450px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.pmain{
+    position: relative;
+    max-width: 100%;
+}
+
+/*********** PRODUCT DETAILS************/
+
+.main-description{
+    position: relative;
+    top: -75px;
+}
+
+.description{
+    position: inline-block;;
+    left: 75%;
+
+}
+
+h3{
+    font-size: 27px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    position: relative;
+    color: black;
+}
+
+.couch-title{
+    position: relative;
+    top: 20%;
+
+}

@@ -1,0 +1,390 @@
+/*********** NAVIGATION ************/
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    box-shadow: 3px 3px 5px 0 #6A6A6A;
+    margin-left: -10px;
+    padding-left: 10px;
+    top: 0px;
+    z-index: 0;
+}
+
+
+.navbar{
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-left: 775px;
+    position: relative;
+    z-index: 5;
+    float: left;
+}
+
+
+.navbar a {
+    float: left;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2B2F50;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 50;
+
+
+}
+
+.navbar a:hover{
+    color: #E86E5F;
+
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 3px 3px 5px 0 #6A6A6A;
+    top: 0;
+    left: 0;
+}
+
+.logo_container{
+    position: relative;
+    z-index: 3;
+    margin-bottom: -50px;
+    width: 20%;
+    top: -80%;
+}
+
+.logo{
+    position: relative;
+    width: 20%;
+}
+
+.icons{
+    display: inline-flex;
+    z-index: 4;
+    float:right;
+    margin-right: 70px;
+    align-content: center; 
+    top: -30px;
+}
+
+.icons a{
+    padding-right: 25px;
+    color: black;
+    margin-top: -20px;
+
+}
+
+
+/*********** PAGE LEFT ************/
+
+.productbox{
+    border-color:black;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 3%;
+    padding-left: 5px;
+    padding-top: 20px;
+    width: 890px;
+    margin-right: 0px;
+    position: absolute;
+    display: inline-block;
+}
+
+
+.back{
+    position: relative;
+    top: 50%;
+}
+
+#backicon{
+    transform: rotate(90deg);
+
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+.shopping-bag{
+    position: relative;
+    left: 3%;
+
+}
+
+h5{
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #E86E5F;
+
+}
+
+#productdetails{
+    position: relative;
+    left: 3%;
+    display: inline-block;
+}
+
+#quantity{
+    position: relative;
+    left: 24%;
+    display: inline-block;
+}
+
+#deliverydate{
+    position: relative;
+    left: 28%;
+    display: inline-block;
+}
+
+#price{
+    position: relative;
+    left: 36%;
+    display: inline-block;
+}
+
+#productpic{
+    position: relative;
+    left: 1%;
+    display: inline-block;
+}
+
+.addedproduct{
+    position: relative;
+    display: inline-block;
+    left: 3%;
+    top: -80px;
+}
+
+h6{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+
+#pencil{
+    position: relative;
+    display: inline-block;
+    top: 10px;
+}
+
+a{
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+
+}
+
+.edit{
+    position: relative;
+    display: inline-block;
+    left: -9%;
+    top: -10px;
+}
+
+.editquantity{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+}
+
+.selectquant{
+    position: relative;
+    display: inline-block;
+    left: 3%;
+    top: -165px;
+}
+
+.estdelivery{
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    top: -130px;
+}
+
+#estdate{
+    margin-bottom: 5px;
+}
+
+#date{
+    margin-top: 20px;
+}
+
+#dollar{
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.amount{
+    position: relative;
+    display:inline-block;
+    left: 16%;
+    top:-170px;
+}
+.remove{
+    position: relative;
+    display:inline-block;
+    left: 7%;
+
+}
+
+#trash{
+    position: relative;
+    display: inline-block;
+    top: 10px;
+}
+
+
+/*********** PAGE RIGHT ************/
+
+.summary{
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 80px;
+    background: #E8F5FC;
+    width: 370px;
+    margin-right: 0;
+    padding-left: 50px;
+    height: 700px;
+    padding-top: 90px;
+}
+
+label{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#next{
+    margin-bottom: 15px;
+}
+
+#second{
+    margin-bottom: 15px;
+
+}
+
+#military{
+    margin-bottom: 15px;
+
+}
+
+.prices{
+    position: relative;
+    display: inline-block;
+    left: 18%;
+    top: -45px;
+}
+
+.shippingoptions{
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    top: -50px;
+}
+
+#firstship{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px;
+  
+}
+
+#secondship{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+#thirdship{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+
+}
+
+#fourthship{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+
+}
+
+h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.words{
+    position: relative;
+    top: 50%;
+   
+}
+
+.numbers{
+    position: relative;
+    float: right;
+    left: -18%;
+    margin-top: -145px;
+
+}
+
+.totalprice{
+    position: relative;
+    float: right;
+    left: -24%;
+    margin-top: -40px;
+
+}
+
+.button{
+    position: relative;
+    top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+}

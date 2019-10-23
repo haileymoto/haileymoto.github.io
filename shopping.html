@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Fluff Stuff</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700&display=swap" rel="stylesheet">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css /shopping.css">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+     <!-- Navigation -->
+
+    <div class="container">
+        <div class="navbar">
+            <a href="#home">home</a>
+            <a href="#shop">shop</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+            <a href="#account"><i class="material-icons">account_circle</i></a>
+            <a href="#cart"><i class="material-icons" style="color: #E86E5F">shopping_cart</i></a>
+        </div>
+        <div class="logo_container">
+            <img class="logo" src="images/fs_logo.png" style="width: 50%">
+        </div>
+
+    </div>
+    
+    <div class="back">
+        <img id="backicon" src="icons /arrow.png">
+    </div>
+    <div class="shopping-bag">
+        <h3>Shopping Bag</h3>
+    </div>
+    <div class=categories>
+        <h5 id="productdetails">Product details</h5>
+        <h5 id="quantity">Quantity</h5>
+        <h5 id="deliverydate">Delivery Date</h5>
+        <h5 id="price">Price</h5>
+    </div>
+    <div class="productbox">
+        <img id="productpic" src="details images/lemons.png" style="width: 200px">
+        <div class="addedproduct">
+            <h6 id="pillowtype">Couch Pillow</h6>
+            <p id="productcolor">After School Special</p>
+            <p id="productfilling">Hypoallergenic</p>
+        </div>
+        <div class="edit">
+            <img id="pencil" src="icons /edit.png" style="width: 30px">
+            <a class="editword" href="details.html">Edit</a>
+        </div>
+        <div class="selectquant">
+            <select name="editquantity" class="editquantity">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+                <option value="nine">9</option>
+                <option value="ten">10</option>
+            </select>
+        </div>
+        <div class="estdelivery">
+                <h6 id="estdate">Estimated delivery date:</h6>
+                <h6 id="date">Thurs February 20</h6>
+        </div>
+        <div class="amount">
+                <h5 id="dollar">$140</h5>
+        </div>
+        <div class="remove">
+                <img id="trash" src="icons /trash.png" style="width: 30px">
+                <a href="#deleteproduct">Remove</a>
+
+        </div>
+    </div>
+        <div class="summary">
+            <h3 id="osum">Order Summary</h3>
+            <div class="mode">
+                <h6 id="selectship">Select Shipping Mode</h6>
+                <div class="shippingoptions">
+                    <input id="next" type="radio" name="shiptype" value="next">
+                    <label for="next">Next Business Day</label><br>
+                    <input id="second" type="radio" name="shiptype" value="second">
+                    <label for="second">Second Business Day</label><br>
+                    <input id="military" type="radio" name="shiptype" value="military">
+                    <label for="military">Military</label><br>
+                    <input id-="standard" type="radio" name="shiptype" value="standard">
+                    <label for="standard">Standard</label><br>
+
+                </div>
+                <div class=prices>
+                    <h6 id="firstship">$17.95</h6>
+                    <h6 id="secondship">$7.95</h6>
+                    <h6 id="thirdship">Free</h6>
+                    <h6 id="fourthship">Free</h6>
+                </div>
+                <div class="words">
+                    <h4>Subtotal</h4>
+                    <h4>Shipping</h4>
+                    <h4>Estimated Tax</h4>
+                </div>
+                <div class="numbers">
+                    <h4>$140.00</h4>
+                    <h4>TBD</h4>
+                    <h4>$0.00</h4>
+                </div>
+                <hr>
+                <h4 class="total">Total</h4>
+                <h4 class="totalprice">$140</h4>
+                <button class="button" type="button">Checkout Now</button>
+            </div>
+        </div>  
+</body>    

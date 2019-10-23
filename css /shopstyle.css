@@ -1,0 +1,809 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*********** ICONS ************/
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;  /* Preferred icon size */
+    display: inline-flex;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+/*********** NAVIGATION ************/
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    box-shadow: 3px 3px 5px 0 #6A6A6A;
+    margin-left: -10px;
+    padding-left: 10px;
+    top: 0px;
+    z-index: 0;
+}
+
+
+.navbar{
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-left: 775px;
+    position: relative;
+    z-index: 5;
+    float: left;
+}
+
+
+.navbar a {
+    float: left;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2B2F50;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 50;
+
+
+}
+
+.navbar a:hover{
+    color: #E86E5F;
+
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 3px 3px 5px 0 #6A6A6A;
+    top: 0;
+    left: 0;
+}
+
+.logo_container{
+    position: relative;
+    z-index: 3;
+    margin-bottom: -50px;
+    width: 20%;
+    top: -80%;
+}
+
+.logo{
+    width: 20%;
+}
+
+.icons{
+    display: inline-flex;
+    z-index: 4;
+    float:right;
+    margin-right: 70px;
+    align-content: center; 
+    top: -30px;
+}
+
+.icons a{
+    padding-right: 25px;
+    color: black;
+    margin-top: -20px;
+
+}
+
+/*********** HOME ************/
+
+.jumbotron{
+    top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: -30px;
+    margin-right: -20px;
+    z-index: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+}
+
+.main_text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.main_text_shop{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#itemCount{
+    position: absolute;
+    display: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    text-align: center;
+    top: 10px;
+    margin-left: 94.5%;
+    z-index: 5;
+}
+
+/*********** PRODUCTS ************/
+
+.background{
+    width: 100%;
+    height: 500px;
+    background-color: #E8F5FC;
+    z-index: 4;
+   
+}
+
+.couch{
+    margin-top: 30px;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    width: 22%;
+}
+
+
+
+h4{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+
+.couch_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.round{
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 22%;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.round_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.bed{
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 22%;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.bed_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+#bed_heading{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 43px;
+    margin-bottom: 0px;
+}
+
+.pouf{
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 22%;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    overflow: hidden;
+
+}
+
+.pouf_pic{
+    width: 100%;
+    margin-top: 0px;
+}
+
+#pouf_heading{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/*********** PRODUCT DETAILS PICTURE************/
+
+
+.container_1{
+    top: 150px;
+    position: relative;
+    width: 50%;
+    padding-right: 0px;
+    float: left;
+    top: 75px;
+
+}
+
+.product-pictures{
+    position: relative;
+    width: 22%;
+    left: 3%;
+    height: 700px;
+    display: inline-block;
+}
+
+.pcouch{
+    max-width: 100%;
+    position: relative;
+
+}
+
+.pground{
+    max-width: 100%;
+    position: relative;
+}
+
+.pplant{
+    max-width: 100%;
+    position: relative;
+}
+
+.main-product-pic{
+    width: 71.5%;
+    left: 1%;
+    height: 650px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.next{
+    width: 40px;
+    height: 60px;
+    color: white;
+    z-index: 21;
+    float: right;
+    position: absolute;
+}
+
+
+.pmain{
+    position: relative;
+    max-width: 100%;
+    z-index: 8;
+}
+
+/*********** PRODUCT DETAILS ************/
+
+.main-description{
+    position: relative;
+    top: -75px;
+}
+
+.description{
+    position: inline-block;;
+    left: 60%;
+}
+
+h3{
+    top: 120px;
+    font-size: 27px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    position: relative;
+    color: black;
+    left: 5%
+}
+
+
+h5{
+    position: relative;
+    left: 5.5%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 110px;
+
+}
+
+.ratings{
+    position: relative;
+    left: 2.5%;
+    top: 70px;
+
+}
+
+h6{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+.reviews{
+    position: relative;
+    float: right;
+    padding-right: 355px;
+    top: 7px;
+    left: -5.5%;
+
+}
+
+#number{
+    position: absolute;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    top: -9px;
+    margin-left: -3px;
+}
+
+
+.wishlist{
+    position: relative;
+    display: inline-block;
+    left: 25%;
+    margin-top: 10px;
+}
+
+#heart{
+    display: none;
+}
+
+
+/*********** COLORS ************/
+
+.options{
+    position: relative;
+    top: 30%;
+}
+
+#color-text{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    top: 40%;
+}
+
+.color{
+    position: relative;
+    top: 20px;
+}
+
+.dot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 75px;
+}
+
+.circles{
+    position: relative;
+    left: 6%;
+    padding-bottom: 20px;
+}
+
+.active{
+    border-color: black;
+    border-width: 2px;
+}
+
+
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.color-description{
+    position: relative;
+    left: 5%;
+}
+
+#filling-text{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    top: 60%;
+}
+
+
+.fillings{
+    position: relative;
+    left: 6%;
+    height: 60px;
+    top: -10px;
+}
+
+
+.no-border{
+    display: none;
+}
+
+
+
+.fill-icon{
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+#feather{
+    position: absolute;
+    display: inline-block;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#hypoallergenic{
+    position: absolute;
+    display: inline-block;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#memoryfoam{
+    position: absolute;
+    display: inline-block;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filling-description{
+    position: relative;
+    left: 5.5%;
+    top: -10px;
+    
+}
+
+#filling-space{
+    position: relative;
+    margin-right: 65px;
+    top: 50px;
+}
+
+.feathers{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.hypo{
+    position: relative;
+    display: inline-block;
+    left: 10px;
+}
+
+.mf{
+    position: relative;
+    display: inline-block;
+
+}
+
+.action{
+    margin-top: 50px;
+}
+
+.fill-icon:active{
+    border-color: black;
+    border-width: 2px;
+}
+
+
+/*********** BUTTON & QUANTITY************/
+
+#cartbutton{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+}
+
+.add-to-cart{
+    position: relative;
+    left: 5%;
+    margin-top: 60px;
+}
+
+#quantity{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+    margin-left: 10px;
+}
+
+#dropdown{
+    position: absolute;
+    left: 72%;
+    margin-top: -30px;
+
+}
+
+#quantity-title{
+    position: relative;
+    float: left;
+    left: -1%;
+    top: -30px;
+    font-size: 20px;
+}
+
+hr{
+    position: relative;
+    top: 30px;
+    width: 550px;
+    left: 23.5%;
+}
+
+#details{
+    position: inline-block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 28px;
+    left: 55%;
+
+
+}
+
+
+.break2{
+    position: relative;
+    top: 30px;
+    width: 550px;
+    left: 23.5%;
+}
+
+.arrow{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin-right: 70px;
+    top:-30px;
+}
+
+
+
+
+/*********** SIMILAR PRODUCTS ************/
+
+#similar{
+    position: relative;
+    left: 5%;
+    top: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.similar-pics{
+    position: relative;
+    align-content: center;
+    margin-left: 40px;
+}
+
+.simpics{
+    width: 30%;
+    top: 30%;
+    padding-right: 30px;
+}
+
+.similar-round{
+    position: relative;
+    width: 30%;
+    margin-left: 40px;
+
+}
+
+#roundpill{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: inline-block;
+    width: 50%;
+    margin-right: 0px;
+    top: 0%;
+    left: -5px;
+    margin-top: 10px;
+}
+
+#round-price{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    width: 50%;
+    margin-right: 0;
+    float: right;
+    top: -85px;
+    left: 20%;
+
+
+
+
+}
+
+#rounddetails{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    float: right;
+    position: relative;
+    left: 45%;
+    top: -20px;
+}
+
+.similar-pouf{
+    position: inline-block;
+    width: 61%;
+    margin-left: 450px;
+
+}
+
+#poufpill{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: inline-block;
+    width: 50%;
+    margin-right: 0px;
+    top: -135px;
+    left: 30px;
+    margin-top: 10px;
+}
+
+
+
+#pouf-price{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    width: 50%;
+    margin-right: 0;
+    float: right;
+    top: -218px;
+    left: -10%;
+
+
+}
+
+#poufdetails{
+    position: relative;
+    float: left;
+    left: 41%;
+    top: -155px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+
+}
+
+.similar-bed{
+    position: relative;
+    left: 75%;
+}
+
+#bedpill{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    width: 50%;
+    margin-right: 0px;
+    top: -215px;
+    left: -120px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+
+#bed-price{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    width: 50%;
+    margin-right: 0;
+    float: right;
+    top: -300px;
+    left: 1%;
+
+
+}
+
+#beddetails{
+    position: relative;
+    float: left;
+    left: 15%;
+    top: -240px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+
+}

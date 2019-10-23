@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Fluff Stuff</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700&display=swap" rel="stylesheet">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css /shopstyle.css">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+   <!-- Javascript -->
+   <script type="text/javascript" src="js/mainshop.js"></script>
+
+</head>
+
+<body> 
+    <!-- Navigation -->
+          
+    <div class="container">
+        <div class="navbar">
+            <a href="#home">home</a>
+            <a href="#shop" style="color: #E86E5F">shop</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+            <a href="#account"><i class="material-icons">favorite</i></a>
+            <a href="shopping.html"><i class="material-icons">shopping_cart</i></a>
+        </div> 
+        <span id="itemCount">
+            <p id="number">0</p>
+        </span>
+        <div class="logo_container">
+                <img class="logo" src="images/fs_logo.png" style="width: 50%">
+        </div>
+    </div>
+    <!-- Product Pictures -->
+
+    <div class="container_1">
+        <div class="product-pictures">
+            <img class="pcouch" src="details images/pink couch.png">
+            <img class="pground" src="details images/pink ground.png">
+            <img class="pplant" src="details images/pink plant.png">
+
+        </div>
+        <div class="main-product-pic">
+            <div class="next"></div>
+            <img class="pmain" src="details images/lemons.png">
+        </div>
+
+    </div>
+        <!-- Product Description -->
+        <div class="main-description">
+            <div class="options">
+                    <div class="description">
+                            <div class="couch-title">
+                                    <h3>Couch Pillow</h3>
+                            </div>
+                            <div class="couch-price">
+                                    <h5>$39 or 2 for $70</h5>
+                            </div>
+                            
+                        </div>
+                        <div class="ratings">
+                                <img src="icons /stars.png">
+                                <div class="reviews">
+                                        <h6>4.3 | 532 reviews</h6>
+                                </div>
+                        </div>
+                        <div class="wishlist">
+                            <i class="material-icons">favorite_border</i>
+                            <i id="heart" class="material-icons">favorite</i>
+
+                        </div>
+                        <div class="color">
+                            <h5 id="color-text">color</h5>
+                            <div class="circles">
+                                <button onclick="clicked()" class="dot active" style="background-color: #F3D8CD"></button>
+                                <button onclick="clicked()" class="dot" style="background-color: #F4E39E"></button>
+                                <button onclick="clicked()" class="dot" style="background-color: #869E87"></button>
+                                <button onclick="clicked()" class="dot" style="background-color: #333D64"></button></button>
+                            </div>
+                            <div class="color-description">
+                                <span><p>morning haze</p></span>
+                                <span><p>after school special</p></span>
+                                <span><p>rainy day</p></span>
+                                <span><p>cozy denim</p></span>
+                            </div>
+                        </div>
+                        <div class="filling">
+                            <h5 id="filling-text">filling</h5>
+                            <div class="fillings">
+                                <div class="feathers">
+                                    <input onclick="feather()" type ="image" class="no-border" id="feather" src="icons /feather.png" style="height: 50px">
+                                    <span><p id="filling-space">feather</p></span>
+                                </div>
+                                <div class="hypo">
+                                    <input onclick="hypo()" type="image" class="no-border" id="hypoallergenic" src="icons /hypo.png" style="height: 50px">
+                                    <span><p id="filling-space">hypoallergenic</p></span>
+                                </div>
+                                <div class="mf">
+                                    <input onclick="memory()" type="image" class="no-border" id="memoryfoam" src="icons /mf.png" style="height: 50px">
+                                    <span><p id="filling-space">memory foam</p></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="action"> -->
+                            <div class="add-to-cart">
+                                <button onclick="quantity()" id="cartbutton">add to cart</button>
+                            </div>
+                        <!-- </div> -->
+                       
+
+                        <div id="dropdown">
+                            <h5 id="quantity-title">Qty</h5>
+                            <select id="quantity">
+                                <option value=1>1</option>
+                                <option value=2>2</option>
+                                <option value=3>3</option>
+                                <option value=4>4</option>
+                                <option value=5>5</option>
+                                <option value=6>6</option>
+                                <option value=7>7</option>
+                                <option value=8>8</option>
+                              </select>
+                        </div>
+                        <hr>
+                        <h5 id="details">Details</h5>
+                        <hr class="break2">
+                        <img class="arrow" src="icons /arrow.png">
+                        </div>
+            </div>
+            <!-- Similar Products -->
+            <div class="similar-products">
+                    <h2 id="similar">Similar Products</h2>
+                <div class="similar-pics">
+                    <img class="simpics" src="details images/sim round.png">
+                    <img class="simpics" src="details images/sim pouf.png">
+                    <img class="simpics" src="details images/sim pill.png">
+                </div>
+                <div class="similar-round">
+                    <h5 id="roundpill">Round Pillow</h5>
+                    <h5 id="round-price">$39 - $59</h5>
+                    <a id="rounddetails" href="#rounddetails">view details</a>
+                
+                </div>
+                <div class="similar-pouf">
+                        <h5 id="poufpill">Floor Pouf Pillow</h5>
+                        <h5 id="pouf-price">$79 - $99</h5>
+                        <a id="poufdetails" href="#poufdetails">view details</a>
+                
+                </div>
+                <div class="similar-bed">
+                        <h5 id="bedpill">Bed Pillow</h5>
+                        <h5 id="bed-price">$79 - $99</h5>
+                        <a id="beddetails" href="#beddetails">view details</a>
+                
+                </div>
+            </div>     
+        </div>
+</body>
+
