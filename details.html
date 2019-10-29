@@ -60,7 +60,7 @@
                                     <h3>Couch Pillow</h3>
                             </div>
                             <div class="couch-price">
-                                    <h5>$39 or 2 for $70</h5>
+                                    <h5>$39</h5>
                             </div>
                             
                         </div>
@@ -78,10 +78,10 @@
                         <div class="color">
                             <h5 id="color-text">color</h5>
                             <div class="circles">
-                                <button onclick="clicked()" class="dot active" style="background-color: #F3D8CD"></button>
-                                <button onclick="clicked()" class="dot" style="background-color: #F4E39E"></button>
-                                <button onclick="clicked()" class="dot" style="background-color: #869E87"></button>
-                                <button onclick="clicked()" class="dot" style="background-color: #333D64"></button></button>
+                                <button onclick="clicked()" value=1 class="dot" id="morning haze" style="background-color: #F3D8CD"></button>
+                                <button onclick="clicked()" value=2 class="dot" id="after school special" style="background-color: #F4E39E"></button>
+                                <button onclick="clicked()" value=3 class="dot" id="rainy day" style="background-color: #869E87"></button>
+                                <button onclick="clicked()" value=4 class="dot" id="cozy denim" style="background-color: #333D64"></button></button>
                             </div>
                             <div class="color-description">
                                 <span><p>morning haze</p></span>
@@ -94,15 +94,15 @@
                             <h5 id="filling-text">filling</h5>
                             <div class="fillings">
                                 <div class="feathers">
-                                    <input onclick="feather()" type ="image" class="no-border" id="feather" src="icons /feather.png" style="height: 50px">
-                                    <span><p id="filling-space">feather</p></span>
+                                    <input onclick="feather()" name="feather" type ="image" class="no-border" id="feather" src="icons /feather.png" style="height: 50px">
+                                    <span><p id="feather-filling-space">feather</p></span>
                                 </div>
                                 <div class="hypo">
-                                    <input onclick="hypo()" type="image" class="no-border" id="hypoallergenic" src="icons /hypo.png" style="height: 50px">
+                                    <input onclick="hypo()" name="hypoallergenic" type="image" class="no-border" id="hypoallergenic" src="icons /hypo.png" style="height: 50px">
                                     <span><p id="filling-space">hypoallergenic</p></span>
                                 </div>
                                 <div class="mf">
-                                    <input onclick="memory()" type="image" class="no-border" id="memoryfoam" src="icons /mf.png" style="height: 50px">
+                                    <input onclick="memory()" name="memory foam" type="image" class="no-border" id="memoryfoam" src="icons /mf.png" style="height: 50px">
                                     <span><p id="filling-space">memory foam</p></span>
                                 </div>
                             </div>
