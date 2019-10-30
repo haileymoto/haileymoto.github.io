@@ -14,11 +14,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
    <!-- Javascript -->
-   <script type="text/javascript" src="js/cart.js"></script>
+   <script type="text/javascript" src="js/mainshop.js"></script>
 
 </head>
 
-<body>
+<body onload="onLoad()">
      <!-- Navigation -->
 
     <div class="container">
@@ -42,13 +42,13 @@
     <div class="shopping-bag">
         <h3>Shopping Bag</h3>
     </div>
-    <div class=categories>
+    <div class=categories id="categories">
         <h5 id="productdetails">Product details</h5>
         <h5 id="quantity">Quantity</h5>
         <h5 id="deliverydate">Delivery Date</h5>
         <h5 id="price">Price</h5>
     </div>
-    <div class="productbox">
+    <div class="productbox" id="productbox" style="display: inline-block">
         <img id="productpic" src="details images/lemons.png" style="width: 200px">
         <div class="addedproduct">
             <h6 id="pillowtype">Couch Pillow</h6>
@@ -60,18 +60,9 @@
             <a class="editword" href="details.html">Edit</a>
         </div>
         <div class="selectquant">
-            <select name="editquantity" class="editquantity">
-                <option value="one">1</option>
-                <option value="two">2</option>
-                <option value="three">3</option>
-                <option value="four">4</option>
-                <option value="five">5</option>
-                <option value="six">6</option>
-                <option value="seven">7</option>
-                <option value="eight">8</option>
-                <option value="nine">9</option>
-                <option value="ten">10</option>
-            </select>
+            <div name="editquantity" id="selectquantity" class="editquantity">
+                <h6 id="number">4</h6>
+            </div>
         </div>
         <div class="estdelivery">
                 <h6 id="estdate">Estimated delivery date:</h6>
@@ -82,7 +73,7 @@
         </div>
         <div class="remove">
                 <img id="trash" src="icons /trash.png" style="width: 30px">
-                <a href="#deleteproduct">Remove</a>
+                <a onclick="remove()" href="#deleteproduct">Remove</a>
 
         </div>
     </div>
@@ -113,13 +104,13 @@
                     <h4>Estimated Tax</h4>
                 </div>
                 <div class="numbers">
-                    <h4>$140.00</h4>
+                    <h4 id="sub">$140.00</h4>
                     <h4>TBD</h4>
                     <h4>$0.00</h4>
                 </div>
                 <hr>
                 <h4 class="total">Total</h4>
-                <h4 class="totalprice">$140</h4>
+                <h4 class="totalprice" id="est">$140</h4>
                 <button class="button" type="button">Checkout Now</button>
             </div>
         </div>  

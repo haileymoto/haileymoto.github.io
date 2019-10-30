@@ -1,10 +1,8 @@
-
 myProduct={
     "color":"color",
     "filling": "filling",
     "quantity": 4,
 }
-
 
 //Choose colors
 var btns = document.getElementsByClassName("dot");
@@ -85,9 +83,12 @@ function memory(){
 function added(){
     var confirm = document.getElementById("cartbutton");
     if (confirm.value = "add to cart"){
+        quantity();
         confirm.value = "added to cart";
+        localStorage.setItem("product", JSON.stringify(myProduct));
+
     }
-    localStorage.setItem(“product”, JSON.stringify(myProduct));
+
 }
 
 var count=0
@@ -105,4 +106,76 @@ function quantity(){
     var added= document.getElementById("cartbutton");
         added.innerHTML = "added to cart";
     myProduct.quantity=count;
+}
+
+function onLoad(){
+    var getProduct = JSON.parse(localStorage.getItem("product"));
+    console.log(getProduct)
+    popColor();
+    popFilling();
+    popQuant();
+    popPrice();
+    subtotal();
+    estimate();
+
+
+}
+
+function popColor(){
+    var getProduct = JSON.parse(localStorage.getItem("product"));
+    var colorChange = document.getElementById("productcolor");
+    var pickedColor= getProduct["color"];
+    colorChange.innerHTML = pickedColor;
+
+}
+
+function popFilling(){
+    var getProduct = JSON.parse(localStorage.getItem("product"));
+    var fillingChange = document.getElementById("productfilling");
+    var pickedFilling= getProduct["filling"];
+    fillingChange.innerHTML = pickedFilling;
+
+}
+
+ 
+function popQuant(){
+    var getProduct = JSON.parse(localStorage.getItem("product"));
+    var quant = document.getElementById("number");
+    var pickedQuant = getProduct["quantity"];
+    quant.innerHTML = pickedQuant;
+ 
+}
+
+function popPrice(){
+    var getPrice = document.getElementById("dollar");
+    var quant = document.getElementById("number");
+    var price = (Number(quant.innerHTML) * 39);
+    getPrice.innerHTML = ("$" + price);
+}
+
+function subtotal(){
+    var getSub = document.getElementById("sub");
+    var quant = document.getElementById("number");
+    var price = (Number(quant.innerHTML) * 39);
+    getSub.innerHTML = ("$" + price);
+}
+
+
+function estimate(){
+    var getEst = document.getElementById("est");
+    var quant = document.getElementById("number");
+    var price = (Number(quant.innerHTML) * 39);
+    getEst.innerHTML = ("$" + price);
+}
+
+function remove(){
+    var hide = document.getElementById("productbox");
+    hide.style.display = "none";
+    var getEst = document.getElementById("est");
+    getEst.innerHTML = "--";
+    var getSub = document.getElementById("sub");
+    getSub.innerHTML = "--";
+    if (hide.style.display = "none") {
+        localStorage.removeItem("product");
+    }
 }

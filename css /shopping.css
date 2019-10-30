@@ -99,7 +99,6 @@
     width: 890px;
     margin-right: 0px;
     position: absolute;
-    display: inline-block;
 }
 
 
@@ -141,19 +140,19 @@ h5{
 
 #quantity{
     position: relative;
-    left: 24%;
+    left: 21%;
     display: inline-block;
 }
 
 #deliverydate{
     position: relative;
-    left: 28%;
+    left: 24%;
     display: inline-block;
 }
 
 #price{
     position: relative;
-    left: 36%;
+    left: 31%;
     display: inline-block;
 }
 
