@@ -179,3 +179,19 @@ function remove(){
         localStorage.removeItem("product");
     }
 }
+
+
+function like(){
+    var pick = document.getElementById("emptyheart");
+    pick.style.color = "#E86E5F";
+}
+
+function wishadd(){
+    var go = document.getElementById("cartbutton");
+    console.log(go.innerHTML);
+    if(go.innerHTML = "add to cart"){
+        go.innerHTML="added to cart";
+    }
+}
+
+

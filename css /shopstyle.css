@@ -575,10 +575,6 @@ p{
     border-radius: 5px;
     border-color: black;    
     background-color: #FCF8E7;
-    transition-property: width, height;
-    transition-duration: 3s;
-    transition-timing-function: linear;
-
 
 }
 

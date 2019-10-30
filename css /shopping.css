@@ -138,10 +138,12 @@ h5{
     display: inline-block;
 }
 
+
 #quantity{
     position: relative;
     left: 21%;
     display: inline-block;
+    
 }
 
 #deliverydate{
@@ -386,4 +388,76 @@ h4{
     border-radius: 5px;
     border-color: black;    
     background-color: #FCF8E7;
+}
+
+/*********** WISHLIST ************/
+
+
+#gifting{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+    top: -40px;
+    margin-right: 70px;
+}
+
+#selectq{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+}
+
+#pfilling{
+    position: relative;
+    top: 10px;
+
+}
+
+#colselect{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 2px;
+    border-color: black;
+    background-color: #FCF8E7;
+}
+
+#fillselect{
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 2px;
+    border-color: black;
+    background-color: #FCF8E7;
+    top: 20px;
+}
+
+#cartbutton{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: black;    
+    background-color: #FCF8E7;
+
+}
+
+.add-to-cart{
+    position: relative;
+    left: -25px;
+
 }

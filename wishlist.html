@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Fluff Stuff</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700&display=swap" rel="stylesheet">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css /shopping.css">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+   <!-- Javascript -->
+   <script type="text/javascript" src="js/mainshop.js"></script>
+
+</head>
+
+<body >
+     <!-- Navigation -->
+
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">home</a>
+            <a href="shop.html">shop</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+            <a href="#account"><i class="material-icons" style="color: #E86E5F">favorite</i></a>
+            <a href="#cart"><i class="material-icons">shopping_cart</i></a>
+        </div>
+        <div class="logo_container">
+            <img class="logo" src="images/fs_logo.png" style="width: 50%">
+        </div>
+
+    </div>
+    
+    <div class="back">
+        <img id="backicon" src="icons /arrow.png">
+    </div>
+    <div class="shopping-bag">
+        <h3>Wishlist</h3>
+    </div>
+    <div class=categories id="categories">
+        <h5 id="productdetails">Product details</h5>
+        <h5 id="quantity">Quantity</h5>
+        <h5 id="deliverydate">Send as Gift?</h5>
+        <h5 id="price">Price</h5>
+    </div>
+    <div class="productbox" id="containproduct" style="display: inline-block">
+        <img id="productpic" src="details images/lemons.png" style="width: 200px">
+        <div class="addedproduct">
+            <h6 id="pillowtype">Couch Pillow</h6>
+            <div class="selectcol">
+                <select id="colselect">
+                    <option>morning haze</option>
+                    <option>after school special</option>
+                    <option>rainy day</option>
+                    <option>cozy denim</option>
+                </select>
+            </div>
+            <div class="selectfill">
+                <select id="fillselect">
+                    <option>feather</option>
+                    <option>hypoallergenic</option>
+                    <option>memory foam</option>
+                </select>
+            </div>
+        </div>
+        <div class="edit">
+            <div class="add-to-cart">
+                <button onclick="wishadd()" id="cartbutton" class="addstuff" value="add to cart">add to cart</button>
+            </div>
+        </div>
+        <div class="selectquant">
+            <div name="editquantity" id="selectquantity" class="editquantity">
+                <select id="selectq">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                </select>
+            </div>
+        </div>
+        <div class="estdelivery">
+                <select id="gifting">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+        </div>
+        <div class="amount">
+                <h5 id="dollar">$39</h5>
+        </div>
+        <div class="remove">
+                <img id="trash" src="icons /trash.png" style="width: 30px">
+                <a onclick="remove()" href="#deleteproduct">Remove</a>
+
+        </div>
+    </div>
+        <div class="summary">
+        </div>
+    </div>  
+</body>    
