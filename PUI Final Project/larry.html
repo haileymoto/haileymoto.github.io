@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Main Stylesheet File -->
+  <link href="larry.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+ 
+   <!-- Bootstrap css -->
+   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 
+   <!-- Libraries CSS Files -->
+   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="lib/animate/animate.min.css" rel="stylesheet">
+ 
+
+</head>
+<body style="background-color: #B7CDD5">
+    <header id="header" class="header header-hide">
+      <div class="container">
+          <nav id="nav-menu-container">
+              <ul class="nav-menu">
+                  <li class="menu-active"><a href="home.html">Home</a></li>
+                  <li><a href="#about-us">About</a></li>
+                  <li class="menu-has-children"><a href="">Diseases</a>
+                    <ul>
+                      <li><a href="rhonda.html">Rheumatoid Arthritis</a></li>
+                      <li><a href="marie.html">Multiple Sclerosis</a></li>
+                      <li><a href="larry.html">Lupus Erythematosus</a></li>
+                    </ul>
+                  </li>
+              </ul>
+          </nav><!-- #nav-menu-container -->
+      </div>
+    </header><!-- #header -->
+    <div class="section-title text-center" id="description">
+        <h3 style="font-family: Josefin Sans; font-weight: 700; font-size: 23px; line-height: 35px;">Larry’s Lupus Erythematosus comes and goes in inflammatory “flares”, resulting in fatigue and a pretty bad rash. Drag food to Larry to see how different foods affect him.</h3>
+    </div>
+    <section class="food1-facts">
+        <div id="orangefact" class="bad-fact">
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Patients with lupus harbor fewer bacterial species in the gut. Yogurt contains probiotics, which helps to diversify gut bacteria. </p>
+        </div>
+        <div id="pastafact" class="bad-fact">
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Numerous animal studies have found that omega-3 fatty acids (abundant in walnuts) reduce severity of autoimmune diseases in mice. </p>
+        </div>
+        <div id="strawfact" class="good-fact" >
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Red meat and fried foods are high in saturated fat. Saturated fat stimulates the immune system, making it more active than it already is. </p>
+        </div>
+      </section>
+        <div class="dragcontainer">
+            <section class="drag-food1">
+                <ul class="food">
+                    <li>
+                        <!-- draggable objects must have draggable attribute -->
+                      <img id="orange" class="draggable" alt="orange" src="img/foods/larry foods/yogurt.png">
+                    </li>
+                    <li>
+                      <img id="pasta" class="draggable" alt="pasta" src="img/foods/larry foods/walnuts.png">
+                    </li>
+                    <li>
+                      <img id="strawberry" class="draggable" alt="strawberry" src="img/foods/larry foods/meat.png">
+                    </li>
+                </ul>
+            </section>
+            <section>
+              <div style="width: 200px; height: 200px" class="dropzone"></div>
+                <div class="eatrhonda">
+                  <img src="img/hungry larry.png" style="width: 300px"> 
+                </div>
+            </section>
+            <section class="drag-food2">
+              <ul class="food">
+                  <li>
+              <!-- draggable objects must have draggable attribute -->
+                      <img id="bread" class="draggable" alt="bread" src="img/foods/larry foods/tomato.png">
+                  </li>
+                  <li>
+                      <img id="fish" class="draggable" alt="fish" src="img/foods/larry foods/garlic.png">
+                  </li>
+                  <li>
+                      <img id="wine" class="draggable" alt="wine" src="img/foods/larry foods/ginger.png">
+                  </li>
+              </ul>
+          </section>
+          <section class="food2-facts">
+              <div id="breadfact" class="good-fact">
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">Though there is no scientific evidence, many lupus patients are sensitive to nightshade vegetables such as tomatoes and potatoes.  </p>
+              </div>
+              <div id="fishfact" class="bad-fact">
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">While garlic has many health benefits, lupus patients report garlic as a trigger for flares, possibly due to thiosulfinate allicin found in garlic. </p>
+              </div>
+              <div id="winefact" class="good-fact" >
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">Herbs such as ginger and turmeric are anti-oxidative and anti-inflammatory. They are  helpful for patients suffering from arthritic symptoms. </p>
+              </div>
+            </section>
+        </div>
+        <section id="features" class="padd-section wow fadeInUp">
+        
+            <div class="container" id="understand">
+              <div class="row">
+        
+                <div class="col-md-6 col-lg-6">
+                  <div class="feature-block">
+                    <img src="img/LUPUS.png" alt="img" class="img-fluid">
+                  </div>
+                </div>
+        
+                <div class="col-md-6 col-lg-6">
+                  <div class="symptom-container">
+                    <h3 style="font-family: Josefin Sans; font-weight: 600">What is Lupus Erythematosus?</h3>
+                    <p>Lupus is an autoimmune disease in which the immune system mistakenly attacks the body’s own tissues and organs. Inflammation caused by lupus can affect many different body systems such as joints, skin, kidneys, blood cells, brain, heart and lungs.</p>
+                    <div id="symptoms">
+                        <h3 style="font-family: Josefin Sans; font-weight: 600">Common Symptoms</h3>
+                        <h5 style="font-family: Josefin Sans">•Fatigue</h5>
+                        <h5 style="font-family: Josefin Sans">•“Butterfly” facial rash </h5>
+                        <h5 style="font-family: Josefin Sans">•Joint pain and stiffness</h5>
+                        <h5 style="font-family: Josefin Sans">•Skin lesions as a result of sun exposure</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+
+  <!-- Main Javascript File -->
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  <script src="rhonda.js"></script>
+
+</body>
+      

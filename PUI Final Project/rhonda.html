@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Main Stylesheet File -->
+  <link href="rhonda.css" rel="stylesheet">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+ 
+   <!-- Bootstrap css -->
+   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 
+   <!-- Libraries CSS Files -->
+   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="lib/animate/animate.min.css" rel="stylesheet">
+ 
+
+</head>
+<body style="background-color: #B7CDD5">
+    <header id="header" class="header header-hide">
+      <div class="container">
+          <nav id="nav-menu-container">
+              <ul class="nav-menu">
+                  <li class="menu-active"><a href="home.html">Home</a></li>
+                  <li><a href="#about-us">About</a></li>
+                  <li class="menu-has-children"><a href="">Diseases</a>
+                    <ul>
+                      <li><a href="rhonda.html">Rheumatoid Arthritis</a></li>
+                      <li><a href="marie.html">Multiple Sclerosis</a></li>
+                      <li><a href="larry.html">Lupus Erythematosus</a></li>
+                    </ul>
+                  </li>
+              </ul>
+          </nav><!-- #nav-menu-container -->
+      </div>
+    </header><!-- #header -->
+    <div class="section-title text-center" id="description">
+        <h3 style="font-family: Josefin Sans; font-weight: 700; font-size: 23px; line-height: 35px;">Rhonda’s Rheumatoid Arthritis (RA) sometimes makes her joints hurt, making it hard for her to chop ingredients for cooking. Drag food to Rhonda and see how different foods affect her.</h3>
+    </div>
+    <section class="food1-facts">
+        <div id="orangefact" class="good-fact">
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Citrus foods, such as oranges, grapefruit, lemon, and limes, are rich in vitamin C. Vitamin C is an important ingredient in tissue repair.</p>
+        </div>
+        <div id="pastafact" class="bad-fact">
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Many patients with Rheumatoid Arthritis have found that a gluten-free diet has helped to relieve symptoms of joint pain and fatigue. </p>
+        </div>
+        <div id="strawfact" class="good-fact" >
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Anthocyanins found in fruits like strawberries, raspberries, blueberries and blackberries have anti-inflammatory effects. </p>
+        </div>
+      </section>
+        <div class="dragcontainer">
+            <section class="drag-food1">
+                <ul class="food">
+                    <li>
+                        <!-- draggable objects must have draggable attribute -->
+                      <img id="orange" class="draggable" alt="orange" src="img/foods/orange.png">
+                    </li>
+                    <li>
+                      <img id="pasta" class="draggable" alt="pasta" src="img/foods/pasta.png">
+                    </li>
+                    <li>
+                      <img id="strawberry" class="draggable" alt="strawberry" src="img/foods/strawberry.png">
+                    </li>
+                </ul>
+            </section>
+            <section>
+              <div style="width: 200px; height: 200px" class="dropzone"></div>
+                <div class="eatrhonda">
+                  <img src="img/hungry rhonda.png" style="width: 300px"> 
+                </div>
+            </section>
+            <section class="drag-food2">
+              <ul class="food">
+                  <li>
+              <!-- draggable objects must have draggable attribute -->
+                      <img id="bread" class="draggable" alt="bread" src="img/foods/bread.png">
+                  </li>
+                  <li>
+                      <img id="fish" class="draggable" alt="fish" src="img/foods/fish.png">
+                  </li>
+                  <li>
+                      <img id="wine" class="draggable" alt="wine" src="img/foods/wine.png">
+                  </li>
+              </ul>
+          </section>
+          <section class="food2-facts">
+              <div id="breadfact" class="bad-fact">
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">Refined carbohydrates like white bread can aggravate inflammation in the body, potentially making joints hurt more than they already do. </p>
+              </div>
+              <div id="fishfact" class="good-fact">
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">Omega-3 fatty acids reduce the production of molecules linked to inflammation, such as inflammatory signalling molecules and cytokines.</p>
+              </div>
+              <div id="winefact" class="bad-fact" >
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">Alcohol weakens liver function, disrupting other multi-organ interactions and can cause inflammation.</p>
+              </div>
+            </section>
+        </div>
+        <section id="features" class="padd-section wow fadeInUp">
+        
+            <div class="container" id="understand">
+              <div class="row">
+        
+                <div class="col-md-6 col-lg-6">
+                  <div class="feature-block">
+                    <img src="img/RA.png" alt="img" class="img-fluid">
+                  </div>
+                </div>
+        
+                <div class="col-md-6 col-lg-6">
+                  <div class="symptom-container">
+                    <h3 style="font-family: Josefin Sans; font-weight: 600">What is Rheumatroid Arthritis?</h3>
+                    <p>Rheumatoid arthritis (RA) is an autoimmune disease in which the body’s immune system mistakenly attacks the joints, causing the tissue that lines the joints to thicken.</p>
+                    <div id="symptoms">
+                        <h3 style="font-family: Josefin Sans; font-weight: 600">Common Symptoms</h3>
+                        <h5 style="font-family: Josefin Sans">•Tender and swollen joints</h5>
+                        <h5 style="font-family: Josefin Sans">•Joint stiffness</h5>
+                        <h5 style="font-family: Josefin Sans">•Fatigue and loss of appetite</h5>
+                        <h5 style="font-family: Josefin Sans">•Emotional changes and depression</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+
+  <!-- Main Javascript File -->
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  <script src="rhonda.js"></script>
+
+
+</body>
+      

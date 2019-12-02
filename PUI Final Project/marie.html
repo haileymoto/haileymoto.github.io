@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Main Stylesheet File -->
+  <link href="marie.css" rel="stylesheet">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+ 
+   <!-- Bootstrap css -->
+   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 
+   <!-- Libraries CSS Files -->
+   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="lib/animate/animate.min.css" rel="stylesheet">
+ 
+
+</head>
+<body style="background-color: #B7CDD5">
+    <header id="header" class="header header-hide">
+      <div class="container">
+          <nav id="nav-menu-container">
+              <ul class="nav-menu">
+                  <li class="menu-active"><a href="home.html">Home</a></li>
+                  <li><a href="#about-us">About</a></li>
+                  <li class="menu-has-children"><a href="">Diseases</a>
+                    <ul>
+                      <li><a href="rhonda.html">Rheumatoid Arthritis</a></li>
+                      <li><a href="marie.html">Multiple Sclerosis</a></li>
+                      <li><a href="larry.html">Lupus Erythematosus</a></li>
+                    </ul>
+                  </li>
+              </ul>
+          </nav><!-- #nav-menu-container -->
+      </div>
+    </header><!-- #header -->
+    <div class="section-title text-center" id="description">
+        <h3 style="font-family: Josefin Sans; font-weight: 700; font-size: 23px; line-height: 35px;">Marie’s Multiple Sclerosis (MS) sometimes makes it hard for her to remember the foods that relieve or worsen her symptoms. Drag food to Marie and see how different foods affect her.</h3>
+    </div>
+    <section class="food1-facts">
+        <div id="orangefact" class="bad-fact">
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Processed sugars, in foods like candy, are highly inflammatory and can increase susceptibility to MS-related fatigue. </p>
+        </div>
+        <div id="pastafact" class="bad-fact">
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Consumption of whole dairy in MS patients may have a possible role in progression or relapse of disease by triggering immune responses.  </p>
+        </div>
+        <div id="strawfact" class="good-fact" >
+          <p style="font-size: 14px; font-weight: 600; line-height: 20px">Vitamin D deficiency has been implicated as being a risk-factor in MS patients. Fatty fish, like tuna, is a great source of Vitamin D.  </p>
+        </div>
+      </section>
+        <div class="dragcontainer">
+            <section class="drag-food1">
+                <ul class="food">
+                    <li>
+                        <!-- draggable objects must have draggable attribute -->
+                      <img id="orange" class="draggable" alt="orange" src="img/foods/marie foods/lollipop.png">
+                    </li>
+                    <li>
+                      <img id="pasta" class="draggable" alt="pasta" src="img/foods/marie foods/cheese.png">
+                    </li>
+                    <li>
+                      <img id="strawberry" class="draggable" alt="strawberry" src="img/foods/fish.png">
+                    </li>
+                </ul>
+            </section>
+            <section>
+              <div style="width: 200px; height: 200px" class="dropzone"></div>
+                <div class="eatrhonda">
+                  <img src="img/hungry marie.png" style="width: 300px"> 
+                </div>
+            </section>
+            <section class="drag-food2">
+              <ul class="food">
+                  <li>
+              <!-- draggable objects must have draggable attribute -->
+                      <img id="bread" class="draggable" alt="bread" src="img/foods/marie foods/blueberries.png">
+                  </li>
+                  <li>
+                      <img id="fish" class="draggable" alt="fish" src="img/foods/marie foods/salt.png">
+                  </li>
+                  <li>
+                      <img id="wine" class="draggable" alt="wine" src="img/foods/marie foods/broccoli.png">
+                  </li>
+              </ul>
+          </section>
+          <section class="food2-facts">
+              <div id="breadfact" class="good-fact">
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">Refined carbohydrates like white bread can aggravate inflammation in the body, potentially making joints hurt more than they already do.  </p>
+              </div>
+              <div id="fishfact" class="bad-fact">
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">A study found MS patients with medium/high salt intake had clinical relapse rates 2.75- and 3.95-fold higher that patients with low salt intake. </p>
+              </div>
+              <div id="winefact" class="good-fact" >
+                <p style="font-size: 14px; font-weight: 600; line-height: 20px">Cruciferous vegetables, like broccoli provide the essential amino acid tryptophan. Tryptophan helps people better manage psychological stress. </p>
+              </div>
+            </section>
+        </div>
+        <section id="features" class="padd-section wow fadeInUp">
+        
+            <div class="container" id="understand">
+              <div class="row">
+        
+                <div class="col-md-6 col-lg-6">
+                  <div class="feature-block">
+                    <img src="img/MS.png" alt="img" class="img-fluid">
+                  </div>
+                </div>
+        
+                <div class="col-md-6 col-lg-6">
+                  <div class="symptom-container">
+                    <h3 style="font-family: Josefin Sans; font-weight: 600">What is Multiple Sclerosis?</h3>
+                    <p>Multiple Sclerosis (MS) is a disease in which the immune system mistakenly attacks the protective covering of nerve cells, which can lead to diminished function in the brain and spinal cord. </p>
+                    <div id="symptoms">
+                        <h3 style="font-family: Josefin Sans; font-weight: 600">Common Symptoms</h3>
+                        <h5 style="font-family: Josefin Sans">•Muscle weakness or spasms</h5>
+                        <h5 style="font-family: Josefin Sans">•Numbness and tingling</h5>
+                        <h5 style="font-family: Josefin Sans">•Dizziness, vertigo, and fatigue</h5>
+                        <h5 style="font-family: Josefin Sans">•Brain fog and memory problems</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+
+  <!-- Main Javascript File -->
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  <script src="rhonda.js"></script>
+</body>
+      

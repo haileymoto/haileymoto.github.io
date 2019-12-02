@@ -1,3 +1,5 @@
+cart = [];
+
 myProduct={
     "color":"color",
     "filling": "filling",
